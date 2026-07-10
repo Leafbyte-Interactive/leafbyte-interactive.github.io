@@ -1,0 +1,58 @@
+.footer {
+
+    width: 100%;
+
+    background:
+    rgba(18,18,18,0.95);
+
+    border-top:
+    3px solid var(--orange-dark);
+
+    padding:
+    20px;
+
+    text-align:
+    center;
+
+    flex-shrink: 0;
+
+}
+
+
+.footer-logo {
+
+    width:
+    35px;
+
+    display:
+    block;
+
+    margin:
+    0 auto 10px auto;
+
+    transition:
+    transform 300ms ease;
+
+}
+
+
+.footer-logo:hover {
+
+    transform:
+    scale(1.1);
+
+}
+
+
+.footer p {
+
+    margin:
+    0;
+
+    color:
+    white;
+
+    opacity:
+    0.8;
+
+}
