@@ -100,7 +100,37 @@
 
 }
 
+.team-socials {
 
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-top: 20px;
+
+}
+
+.social-link {
+
+    color: var(--orange-dark);
+
+    font-size: 1.5rem;
+
+    transition:
+        color 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+.social-link:hover {
+
+    color: white;
+
+    transform: scale(1.15);
+
+}
 
 @media(max-width:900px) {
 

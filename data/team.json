@@ -3,6 +3,13 @@
         "name": "Parker",
         "role": "Founder, Creative Director & Primary Developer",
         "image": "/assets/images/team/parker.png",
-        "description": "Leading the Creative Direction of Leafbyte Interactive, While Designing, Programming and Bringing New Ideas to Life."
+        "description": "Leading the Creative Direction of Leafbyte Interactive, While Designing, Programming and Bringing New Ideas to Life.",
+        "socials": {
+            "twitch": "https://www.twitch.tv/Parker_Bett",
+            "kick": "https://kick.com/parker-bett",
+            "youtube": "https://www.youtube.com/@Parker_Bett",
+            "bluesky": "https://bsky.app/profile/parker-bett.itch.io",
+            "x": "https://x.com/Parker_Bett"
+        }
     }
 ]
