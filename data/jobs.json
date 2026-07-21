@@ -3,7 +3,7 @@
     {
       "id": "game-designer",
       "title": "Game Designer",
-      "department": "Design",
+      "department": "",
       "type": "Volunteer",
       "status": "Open",
       "description": "Help Create Gameplay Ideas, Mechanics, Levels, and Player Experiences.",
@@ -15,7 +15,8 @@
       "looking_for": [
         "Creative Thinking",
         "Sharing Ideas",
-        "Interest in Game Development"
+        "Interest in Game Development",
+        "Ability to Collaborate"
       ],
       "beginner_friendly": true,
       "apply": "Discord"
@@ -55,7 +56,8 @@
       "looking_for": [
         "Creative Thinking",
         "Interest in Game Art",
-        "Sharing Ideas"
+        "Sharing Ideas",
+        "Ability to Collaborate"
       ],
       "beginner_friendly": true,
       "apply": "Discord"
