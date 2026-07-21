@@ -250,7 +250,38 @@
     text-align: center;
 }
 
+
 .values-card ul {
     list-style-position: inside;
     padding: 0;
+}
+
+
+.badges {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+.badge {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.beginner {
+    background: #4caf50;
+}
+
+
+.status {
+    background: #2196f3;
+}
+
+
+.type {
+    background: #9c27b0;
 }
