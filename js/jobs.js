@@ -6,11 +6,13 @@ fetch("../data/jobs.json")
 
         data.jobs.forEach(job => {
 
-            const badges = `
-                ${job.status ? `<span class="badge status">${job.status}</span>` : ""}
-                ${job.type ? `<span class="badge type">${job.type}</span>` : ""}
-                ${job.beginner_friendly ? `<span class="badge beginner">🌱 Beginner Friendly</span>` : ""}
-            `;
+            const badges = [
+    job.status,
+    job.type,
+    job.beginner_friendly ? "🌱" : ""
+]
+.filter(Boolean)
+.join(" • ");
 
 
             const requirements = job.requirements
