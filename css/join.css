@@ -8,24 +8,19 @@
     display:
     flex;
 
-
     flex-wrap:
     wrap;
-
 
     justify-content:
     center;
 
-
     gap:
     30px;
-
 
     margin-top:
     30px;
 
 }
-
 
 
 /* Job Cards */
@@ -35,34 +30,26 @@
     background:
     var(--orange);
 
-
     border:
     6px solid var(--orange-dark);
-
 
     border-radius:
     15px;
 
-
     padding:
     25px;
-
 
     width:
     280px;
 
-
     max-width:
     100%;
-
 
     text-align:
     center;
 
-
     color:
     var(--orange-dark);
-
 
     transition:
     transform 300ms ease,
@@ -70,20 +57,15 @@
 
 }
 
-
-
 .job-card:hover {
 
     transform:
     translateY(-5px);
 
-
     box-shadow:
     0 10px 20px black;
 
 }
-
-
 
 .job-card h2 {
 
@@ -92,7 +74,12 @@
 
 }
 
+.job-card h3 {
 
+    margin-top:
+    20px;
+
+}
 
 .job-card p {
 
@@ -105,64 +92,42 @@
 }
 
 
+/* Status Line */
 
-/* Job Tags */
+.badges {
 
-.job-info {
-
-    display:
-    flex;
-
-
-    justify-content:
+    text-align:
     center;
 
+    font-size:
+    16px;
 
-    gap:
-    10px;
+    font-weight:
+    bold;
 
+    opacity:
+    0.8;
 
-    flex-wrap:
-    wrap;
-
-}
-
-
-
-.job-tag {
-
-    background:
-    var(--orange-dark);
-
-
-    color:
-    white;
-
-
-    padding:
-    5px 10px;
-
-
-    border-radius:
-    10px;
+    margin:
+    10px 0 20px;
 
 }
 
 
-
-/* Requirements */
+/* Lists */
 
 .job-card ul {
 
     padding:
     0;
 
-
     list-style-position:
     inside;
 
-}
+    margin:
+    10px 0 20px;
 
+}
 
 
 /* Button */
@@ -172,73 +137,51 @@
     display:
     inline-block;
 
-
     margin-top:
     15px;
-
 
     padding:
     10px 20px;
 
-
     background:
     var(--orange-light);
-
 
     border:
     3px solid var(--orange-dark);
 
-
     border-radius:
     15px;
-
 
     color:
     var(--orange-dark);
 
-
     font-weight:
     bold;
-
 
     text-decoration:
     none;
 
-
     cursor:
     pointer;
 
-
     transition:
     transform 300ms ease,
-    box-shadow 300ms ease;
+    box-shadow 300ms ease,
+    background 300ms ease,
+    color 300ms ease;
 
 }
-
-
 
 .apply-button:hover {
 
     transform:
     translateY(-3px);
 
-
     box-shadow:
     0 6px 12px black;
 
-
-    background:
-    var(--orange);
-
-}
-
-
-
-.apply-button:hover {
-
     background:
     white;
-
 
     color:
     var(--orange-dark);
@@ -246,41 +189,18 @@
 }
 
 
-.values-card {
-    text-align: center;
-}
+/* Values Card */
 
+.values-card {
+
+    text-align:
+    center;
+
+}
 
 .values-card ul {
-    list-style-position: inside;
-    padding: 0;
-}
 
+    padding:
+    0;
 
-.badges {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    margin-bottom: 15px;
-}
-
-
-.badges {
-    text-align: center;
-    opacity: 0.8;
-    margin-bottom: 15px;
-}
-
-.beginner {
-    background: #4caf50;
-}
-
-
-.status {
-    background: #2196f3;
-}
-
-
-.type {
-    background: #9c27b0;
-}
+    list-style-position
