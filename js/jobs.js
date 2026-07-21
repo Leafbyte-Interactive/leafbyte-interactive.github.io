@@ -49,9 +49,9 @@ fetch("../data/jobs.json")
                     </h2>
 
 
-                    <div class="badges">
+                    <p class="badges">
                         ${badges}
-                    </div>
+                    </p>
 
 
                     <p class="department">
