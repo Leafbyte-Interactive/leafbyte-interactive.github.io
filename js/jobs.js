@@ -7,38 +7,12 @@ fetch("../data/jobs.json")
         data.jobs.forEach(job => {
 
             const badges = [
-    job.status,
-    job.type,
-    job.beginner_friendly ? "🌱" : ""
-]
-.filter(Boolean)
-.join(" • ");
-
-
-            const requirements = job.requirements
-                ? `
-                    <h3>
-                        Looking For
-                    </h3>
-
-                    <ul>
-                        ${job.requirements.map(item => `<li>${item}</li>`).join("")}
-                    </ul>
-                `
-                : "";
-
-
-            const preferred = job.preferred_skills
-                ? `
-                    <h3>
-                        Preferred Skills
-                    </h3>
-
-                    <ul>
-                        ${job.preferred_skills.map(skill => `<li>${skill}</li>`).join("")}
-                    </ul>
-                `
-                : "";
+                job.status,
+                job.type,
+                job.beginner_friendly ? "🌱" : ""
+            ]
+            .filter(Boolean)
+            .join(" • ");
 
 
             container.innerHTML += `
@@ -54,7 +28,7 @@ fetch("../data/jobs.json")
                     </p>
 
 
-                    <p class="department">
+                    <p>
                         ${job.department}
                     </p>
 
@@ -65,18 +39,21 @@ fetch("../data/jobs.json")
 
 
                     <h3>
-                        Skills
+                        What You Can Help With
                     </h3>
 
                     <ul>
-                        ${job.skills.map(skill => `<li>${skill}</li>`).join("")}
+                        ${job.contribute.map(item => `<li>${item}</li>`).join("")}
                     </ul>
 
 
-                    ${requirements}
+                    <h3>
+                        What We're Looking For
+                    </h3>
 
-
-                    ${preferred}
+                    <ul>
+                        ${job.looking_for.map(item => `<li>${item}</li>`).join("")}
+                    </ul>
 
 
                     <a 
