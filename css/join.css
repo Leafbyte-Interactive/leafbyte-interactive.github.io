@@ -1,0 +1,246 @@
+/* Join Page */
+
+
+/* Jobs Grid */
+
+.jobs-grid {
+
+    display:
+    flex;
+
+
+    flex-wrap:
+    wrap;
+
+
+    justify-content:
+    center;
+
+
+    gap:
+    30px;
+
+
+    margin-top:
+    30px;
+
+}
+
+
+
+/* Job Cards */
+
+.job-card {
+
+    background:
+    var(--orange);
+
+
+    border:
+    6px solid var(--orange-dark);
+
+
+    border-radius:
+    15px;
+
+
+    padding:
+    25px;
+
+
+    width:
+    280px;
+
+
+    max-width:
+    100%;
+
+
+    text-align:
+    center;
+
+
+    color:
+    var(--orange-dark);
+
+
+    transition:
+    transform 300ms ease,
+    box-shadow 300ms ease;
+
+}
+
+
+
+.job-card:hover {
+
+    transform:
+    translateY(-5px);
+
+
+    box-shadow:
+    0 10px 20px black;
+
+}
+
+
+
+.job-card h2 {
+
+    text-align:
+    center;
+
+}
+
+
+
+.job-card p {
+
+    text-align:
+    center;
+
+    font-size:
+    18px;
+
+}
+
+
+
+/* Job Tags */
+
+.job-info {
+
+    display:
+    flex;
+
+
+    justify-content:
+    center;
+
+
+    gap:
+    10px;
+
+
+    flex-wrap:
+    wrap;
+
+}
+
+
+
+.job-tag {
+
+    background:
+    var(--orange-dark);
+
+
+    color:
+    white;
+
+
+    padding:
+    5px 10px;
+
+
+    border-radius:
+    10px;
+
+}
+
+
+
+/* Requirements */
+
+.job-card ul {
+
+    padding:
+    0;
+
+
+    list-style-position:
+    inside;
+
+}
+
+
+
+/* Button */
+
+.apply-button {
+
+    display:
+    inline-block;
+
+
+    margin-top:
+    15px;
+
+
+    padding:
+    10px 20px;
+
+
+    background:
+    var(--orange-light);
+
+
+    border:
+    3px solid var(--orange-dark);
+
+
+    border-radius:
+    15px;
+
+
+    color:
+    var(--orange-dark);
+
+
+    font-weight:
+    bold;
+
+
+    text-decoration:
+    none;
+
+
+    cursor:
+    pointer;
+
+
+    transition:
+    transform 300ms ease,
+    box-shadow 300ms ease;
+
+}
+
+
+
+.apply-button:hover {
+
+    transform:
+    translateY(-3px);
+
+
+    box-shadow:
+    0 6px 12px black;
+
+
+    background:
+    var(--orange);
+
+}
+
+
+
+.apply-button:hover {
+
+    background:
+    white;
+
+
+    color:
+    var(--orange-dark);
+
+}

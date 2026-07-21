@@ -1,0 +1,76 @@
+{
+  "jobs": [
+    {
+      "id": "game-designer",
+      "title": "Game Designer",
+      "department": "Main",
+      "type": "Volunteer",
+      "status": "Open",
+      "description": "null",
+      "skills": [
+        "Game Design",
+        "Level Design",
+        "Problem Solving"
+      ],
+      "requirements": [
+        "Creative Thinking",
+        "Interest in Designing Games"
+      ],
+      "apply": "Discord"
+    },
+    {
+      "id": "game-programmer",
+      "title": "Game Programmer",
+      "department": "Main",
+      "type": "Volunteer",
+      "status": "Open",
+      "description": "null",
+      "skills": [
+        "Godot",
+        "GDScript",
+        "Programming"
+      ],
+      "requirements": [
+        "Basic Programming Experience",
+        "Interest in Game Development",
+        "Ability to Work with a Team"
+      ],
+      "apply": "Discord"
+    },
+    {
+      "id": "artist",
+      "title": "2D Artist",
+      "department": "Main",
+      "type": "Volunteer",
+      "status": "Open",
+      "description": "null",
+      "skills": [
+        "Digital Art",
+        "Illustration",
+        "UI Design"
+      ],
+      "requirements": [
+        "Portfolio or Examples of Work",
+        "Ability to Create Original Artwork"
+      ],
+      "apply": "Discord"
+    },
+    {
+      "id": "sound-designer",
+      "title": "Sound Designer",
+      "department": "Main",
+      "type": "Volunteer",
+      "status": "Open",
+      "description": "null",
+      "skills": [
+        "Sound Design",
+        "Audio Editing",
+        "Music"
+      ],
+      "requirements": [
+        "Interest in Game Audio"
+      ],
+      "apply": "Discord"
+    }
+  ]
+}
