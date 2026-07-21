@@ -3,73 +3,101 @@
     {
       "id": "game-designer",
       "title": "Game Designer",
-      "department": "Main",
+      "department": "Design",
       "type": "Volunteer",
       "status": "Open",
-      "description": "null",
+      "description": "Help create gameplay ideas, mechanics, levels, and player experiences for Leafbyte Interactive projects.",
       "skills": [
         "Game Design",
         "Level Design",
-        "Problem Solving"
+        "Problem Solving",
+        "Creative Thinking"
       ],
       "requirements": [
-        "Creative Thinking",
-        "Interest in Designing Games"
+        "Interest in Designing Games",
+        "Willingness to Share Ideas",
+        "Ability to Collaborate"
       ],
+      "preferred_skills": [
+        "Game Design Experience",
+        "Knowledge of Game Development"
+      ],
+      "beginner_friendly": true,
       "apply": "Discord"
     },
     {
       "id": "game-programmer",
       "title": "Game Programmer",
-      "department": "Main",
+      "department": "Development",
       "type": "Volunteer",
       "status": "Open",
-      "description": "null",
+      "description": "Help develop gameplay systems, mechanics, tools, and features using Godot.",
       "skills": [
         "Godot",
         "GDScript",
-        "Programming"
+        "Programming",
+        "Debugging"
       ],
       "requirements": [
-        "Basic Programming Experience",
         "Interest in Game Development",
+        "Willingness to Learn",
         "Ability to Work with a Team"
       ],
+      "preferred_skills": [
+        "Basic Programming Experience",
+        "Godot Experience"
+      ],
+      "beginner_friendly": true,
       "apply": "Discord"
     },
     {
       "id": "artist",
       "title": "2D Artist",
-      "department": "Main",
+      "department": "Art",
       "type": "Volunteer",
       "status": "Open",
-      "description": "null",
+      "description": "Help create characters, environments, artwork, and visual assets for Leafbyte Interactive projects.",
       "skills": [
         "Digital Art",
         "Illustration",
-        "UI Design"
+        "UI Design",
+        "Visual Design"
       ],
       "requirements": [
-        "Portfolio or Examples of Work",
-        "Ability to Create Original Artwork"
+        "Interest in Creating Game Art",
+        "Willingness to Collaborate",
+        "Ability to Share Creative Ideas"
       ],
+      "preferred_skills": [
+        "Digital Art Experience",
+        "Portfolio or Examples of Work"
+      ],
+      "beginner_friendly": true,
       "apply": "Discord"
     },
     {
       "id": "sound-designer",
       "title": "Sound Designer",
-      "department": "Main",
+      "department": "Audio",
       "type": "Volunteer",
       "status": "Open",
-      "description": "null",
+      "description": "Help create music, sound effects, and audio experiences that bring games to life.",
       "skills": [
         "Sound Design",
         "Audio Editing",
-        "Music"
+        "Music",
+        "Audio Production"
       ],
       "requirements": [
-        "Interest in Game Audio"
+        "Interest in Game Audio",
+        "Creative Thinking",
+        "Ability to Collaborate"
       ],
+      "preferred_skills": [
+        "Music Production Experience",
+        "Sound Editing Experience"
+      ],
+      "beginner_friendly": true,
       "apply": "Discord"
     }
   ]
