@@ -69,27 +69,23 @@
     flex-wrap: wrap;
 }
 
-.footer .social-links a,
-.footer .social-links a:link,
-.footer .social-links a:visited {
+.footer .social-links i {
+    font-size: 2em !important;  
+}
+
+.footer .social-links a {
     color: #fff !important;
     text-decoration: none;
-    font-size: 32px !important;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.footer .social-links i {
-    font-size: inherit;
+.footer .social-links a:visited {
+    color: #fff !important;
 }
 
 .footer .social-links a:hover {
     color: var(--orange-dark) !important;
     transform: scale(1.15);
-}
-
-.footer .social-links a:active {
-    color: #ffb347 !important;
 }
