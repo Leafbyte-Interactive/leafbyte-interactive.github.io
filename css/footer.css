@@ -55,4 +55,37 @@
     opacity:
     0.8;
 
+    font-size: 
+    0.95rem;
+
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: #ffffff;          /* White by default */
+    font-size: 2rem;         /* Decent icon size */
+    text-decoration: none;
+    transition: color 0.25s ease,
+                transform 0.25s ease;
+}
+
+.social-links a:hover {
+    color: var(--orange-dark);
+    transform: translateY(-3px) scale(1.15);
+}
+
+.social-links a:visited {
+    color: #ffffff;          /* Stay white after being visited */
+}
+
+.social-links a:active {
+    color: #ffb347;          /* Optional click color */
 }
