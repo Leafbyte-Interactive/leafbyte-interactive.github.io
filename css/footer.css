@@ -70,8 +70,8 @@
 }
 
 .social-links a {
-    color: #ffffff;          /* White by default */
-    font-size: 2rem;         /* Decent icon size */
+    color: #ffffff;          
+    font-size: 200px;         
     text-decoration: none;
     transition: color 0.25s ease,
                 transform 0.25s ease;
